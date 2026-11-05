@@ -1,0 +1,32 @@
+{
+  "name": "mortal-2.0",
+  "version": "2.0.0",
+  "description": "MORTAL 2.0 — Deterministic Accountability Infrastructure for Autonomous AI Agents",
+  "main": "src/server/index.ts",
+  "type": "module",
+  "scripts": {
+    "start": "node --experimental-strip-types src/server/index.ts",
+    "dev": "node --experimental-strip-types src/server/index.ts",
+    "test": "node --experimental-strip-types --test tests/mortal.test.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/akashpandey2388-arch/mortal-2.0.git"
+  },
+  "keywords": [
+    "ai-agents",
+    "autonomous-agents",
+    "security",
+    "ensv2",
+    "hedera",
+    "x402",
+    "audit-ledger",
+    "hashgraph"
+  ],
+  "author": "MORTAL Team",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/akashpandey2388-arch/mortal-2.0/issues"
+  },
+  "homepage": "https://github.com/akashpandey2388-arch/mortal-2.0#readme"
+}

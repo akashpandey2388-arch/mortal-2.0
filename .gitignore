@@ -1,0 +1,51 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual Environment
+.venv/
+venv/
+env/
+
+# Database & Uploads
+instance/database.db
+instance/uploads/
+instance/ml_model.h5
+instance/
+
+# Environment files
+.env
+.env.local
+.env.production
+.env.development
+
+# IDE & OS
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Build outputs
+dist/
+build/
+
+# Logs
+*.log
+
+# Gemini AI artifacts
+.agents/
+AgriGuardian-AI/
+agriguardian-backend/
+agriguardian-frontend/
+BlockChain-Fixmate/
+CampusConnect/
+SafeLand-AI/
+autonomous_drone/
+mux4to1-digital-lab/
+*.zip
+*.db
